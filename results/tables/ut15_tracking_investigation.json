@@ -1,0 +1,47 @@
+{
+  "jump_stats": {
+    "UT14": {
+      "total": 4828753,
+      "jumps": 55286,
+      "pct": 1.1449332778048493,
+      "corridor_total": 2024667,
+      "corridor_jumps": 6267,
+      "corridor_pct": 0.3095323823621366
+    },
+    "UT13": {
+      "total": 3470190,
+      "jumps": 22514,
+      "pct": 0.6487829196672228,
+      "corridor_total": 2198924,
+      "corridor_jumps": 9043,
+      "corridor_pct": 0.41124659151475906
+    },
+    "UT15": {
+      "total": 3042642,
+      "jumps": 92447,
+      "pct": 3.0383791454926343,
+      "corridor_total": 1217789,
+      "corridor_jumps": 39656,
+      "corridor_pct": 3.256393348929905
+    }
+  },
+  "n_cleaned_samples": 92447,
+  "uncleaned": {
+    "label": "UT15_uncleaned",
+    "n_reward_bins": 38,
+    "n_choice_bins": 45,
+    "reward_diff": -0.014538858818365176,
+    "reward_p": 0.001996007984031936,
+    "choice_diff": -0.0007872619120956742,
+    "choice_p": 0.6586826347305389
+  },
+  "cleaned": {
+    "label": "UT15_cleaned",
+    "n_reward_bins": 38,
+    "n_choice_bins": 42,
+    "reward_diff": -0.014923578367600408,
+    "reward_p": 0.001996007984031936,
+    "choice_diff": 0.011683297417854961,
+    "choice_p": 0.001996007984031936
+  }
+}

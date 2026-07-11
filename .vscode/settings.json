@@ -1,0 +1,14 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/analysis_env/bin/python",
+  "python.terminal.activateEnvironment": true,
+  "jupyter.jupyterServerType": "local",
+  "jupyter.kernels.filter": [
+    { "path": "${workspaceFolder}/analysis_env/bin/python", "type": "pythonEnvironment" }
+  ],
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/*.pyc": true
+  },
+  "python.analysis.extraPaths": ["${workspaceFolder}/src"],
+  "notebook.output.textLineLimit": 200
+}

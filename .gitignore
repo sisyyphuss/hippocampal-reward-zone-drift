@@ -1,0 +1,7 @@
+analysis_env/
+__pycache__/
+*.pyc
+data/
+results/cache/*.pkl
+.ipynb_checkpoints/
+dandi_reverify/
