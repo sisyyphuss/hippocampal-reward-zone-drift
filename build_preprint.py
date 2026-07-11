@@ -165,8 +165,9 @@ note_box(
     "Reference list note for one caveat re: preprint-vs-published status); (3) add an ORCID/funding/"
     "conflict-of-interest statement per your target venue's requirements; (4) decide on a target venue "
     "(bioRxiv is the natural first step given this is a secondary analysis of an already-public "
-    "dataset) and reformat citations to that venue's style if needed; (5) fill in the code-repository "
-    "URL in Data and Code Availability once your GitHub repo is created."
+    "dataset) and reformat citations to that venue's style if needed; (5) code repository is now live "
+    "and linked in Data and Code Availability -- consider adding a LICENSE file to it (e.g. MIT) so "
+    "others know how they may reuse the code."
 )
 
 p = doc.add_paragraph()
@@ -632,7 +633,7 @@ body(
     "(https://dandiarchive.org/dandiset/001775), with no registration required. Analysis code, "
     "including all rate-map, population-vector, zone-classification, and statistical modules, plus the "
     "Jupyter notebooks reproducing every figure and statistic in this manuscript, is available at "
-    "[repository URL to be added]."
+    "https://github.com/sisyyphuss/hippocampal-reward-zone-drift."
 )
 
 h1("Acknowledgments", 6)
