@@ -1,0 +1,122 @@
+{
+  "maze": {
+    "per_subject": {
+      "UT14": {
+        "n_sessions": 19,
+        "mantel_day_r": -0.31268187997214913,
+        "mantel_day_p": 0.0016661112962345886,
+        "partial_circ_r": -0.11370230814565743,
+        "partial_circ_p": 0.48483838720426525,
+        "true_hour_min": 14.466666666666667,
+        "true_hour_max": 20.616666666666667,
+        "true_hour_span": 6.15
+      },
+      "UT13": {
+        "n_sessions": 15,
+        "mantel_day_r": -0.20844421154055315,
+        "mantel_day_p": 0.029656781072975674,
+        "partial_circ_r": 0.0399929592720347,
+        "partial_circ_p": 0.7807397534155281,
+        "true_hour_min": 16.866666666666667,
+        "true_hour_max": 18.983333333333334,
+        "true_hour_span": 2.116666666666667
+      },
+      "UT15": {
+        "n_sessions": 15,
+        "mantel_day_r": -0.32772162801528254,
+        "mantel_day_p": 0.005331556147950683,
+        "partial_circ_r": 0.006439790147579192,
+        "partial_circ_p": 0.9546817727424192,
+        "true_hour_min": 9.516666666666667,
+        "true_hour_max": 20.833333333333332,
+        "true_hour_span": 11.316666666666665
+      }
+    },
+    "fisher_day": {
+      "statistic": 30.298879063830157,
+      "p_value": 3.448489819867418e-05,
+      "n_subjects": 3
+    },
+    "fisher_circ": {
+      "statistic": 2.0356605781177457,
+      "p_value": 0.9163898400967834,
+      "n_subjects": 3
+    },
+    "mixed_model_summary": "            Mixed Linear Model Regression Results\n=============================================================\nModel:                MixedLM   Dependent Variable:   pv_corr\nNo. Observations:     381       Method:               REML   \nNo. Groups:           3         Scale:                0.0347 \nMin. group size:      105       Log-Likelihood:       83.5060\nMax. group size:      171       Converged:            Yes    \nMean group size:      127.0                                  \n-------------------------------------------------------------\n                   Coef.  Std.Err.   z    P>|z| [0.025 0.975]\n-------------------------------------------------------------\nIntercept           0.604    0.091  6.630 0.000  0.426  0.783\nday_distance       -0.012    0.002 -5.096 0.000 -0.017 -0.007\ncircadian_distance -0.002    0.005 -0.424 0.672 -0.013  0.008\nGroup Var           0.024    0.132                           \n=============================================================\n",
+    "mixed_model_params": {
+      "params": {
+        "Intercept": 0.6044976595088484,
+        "day_distance": -0.012052577456903812,
+        "circadian_distance": -0.002294911330055078,
+        "Group Var": 0.6874184011898697
+      },
+      "pvalues": {
+        "Intercept": 3.365029042949198e-11,
+        "day_distance": 3.4740457034811816e-07,
+        "circadian_distance": 0.6717447384308982,
+        "Group Var": 0.3303969069260412
+      }
+    },
+    "n_pairs_total": 381
+  },
+  "openfield": {
+    "per_subject": {
+      "UT14": {
+        "n_sessions": 19,
+        "mantel_day_r": -0.18467004205454107,
+        "mantel_day_p": 0.062312562479173605,
+        "partial_circ_r": 0.03659431102128106,
+        "partial_circ_p": 0.846384538487171,
+        "true_hour_min": 14.466666666666667,
+        "true_hour_max": 20.616666666666667,
+        "true_hour_span": 6.15
+      },
+      "UT13": {
+        "n_sessions": 15,
+        "mantel_day_r": -0.20754839529796074,
+        "mantel_day_p": 0.031322892369210265,
+        "partial_circ_r": -0.09257804095257796,
+        "partial_circ_p": 0.5128290569810063,
+        "true_hour_min": 16.866666666666667,
+        "true_hour_max": 18.983333333333334,
+        "true_hour_span": 2.116666666666667
+      },
+      "UT15": {
+        "n_sessions": 15,
+        "mantel_day_r": -0.2985495620686766,
+        "mantel_day_p": 0.009996667777407531,
+        "partial_circ_r": -0.015892723185304526,
+        "partial_circ_p": 0.8957014328557148,
+        "true_hour_min": 9.516666666666667,
+        "true_hour_max": 20.833333333333332,
+        "true_hour_span": 11.316666666666665
+      }
+    },
+    "fisher_day": {
+      "statistic": 21.689003511068712,
+      "p_value": 0.0013784181642276998,
+      "n_subjects": 3
+    },
+    "fisher_circ": {
+      "statistic": 1.8894846816531994,
+      "p_value": 0.9295767626977288,
+      "n_subjects": 3
+    },
+    "mixed_model_summary": "            Mixed Linear Model Regression Results\n=============================================================\nModel:                MixedLM   Dependent Variable:   pv_corr\nNo. Observations:     381       Method:               REML   \nNo. Groups:           3         Scale:                0.0342 \nMin. group size:      105       Log-Likelihood:       86.5355\nMax. group size:      171       Converged:            Yes    \nMean group size:      127.0                                  \n-------------------------------------------------------------\n                   Coef.  Std.Err.   z    P>|z| [0.025 0.975]\n-------------------------------------------------------------\nIntercept           0.550    0.083  6.598 0.000  0.387  0.713\nday_distance       -0.009    0.002 -3.707 0.000 -0.013 -0.004\ncircadian_distance  0.001    0.005  0.213 0.832 -0.009  0.012\nGroup Var           0.020    0.110                           \n=============================================================\n",
+    "mixed_model_params": {
+      "params": {
+        "Intercept": 0.5499997811109288,
+        "day_distance": -0.008704755815747225,
+        "circadian_distance": 0.001144508288993999,
+        "Group Var": 0.5785813087191642
+      },
+      "pvalues": {
+        "Intercept": 4.1706054359321565e-11,
+        "day_distance": 0.00020981857922967571,
+        "circadian_distance": 0.8315130530328073,
+        "Group Var": 0.331458999997285
+      }
+    },
+    "n_pairs_total": 381
+  }
+}
